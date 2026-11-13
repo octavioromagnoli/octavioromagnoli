@@ -1,18 +1,15 @@
-## Hi there 👋
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=170&section=header&text=Octavio&fontSize=55&fontAlignY=35&animation=fadeIn" />
+</p>
 
-Ingeneria IA
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1200&center=true&vCenter=true&width=520&lines=hola+%F0%9F%91%8B+soy+Octavio;estudio+Ingenier%C3%ADa+en+IA+en+UdeSA;entreno+modelos+y+a+veces+aprenden+algo;funciona+en+mi+m%C3%A1quina+%C2%AF%5C_(%E3%83%84)_%2F%C2%AF" />
+</p>
 
-<!--
-**octavioromagnoli/octavioromagnoli** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="center">
+  📍 Buenos Aires · 🧉 mate de por medio · 🤖 metiéndole IA a todo lo que se deja
+</p>
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" />
+</p>
