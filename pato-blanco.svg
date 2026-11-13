@@ -28,26 +28,36 @@
     <g>
       <animateTransform attributeName="transform" type="rotate" dur="11s" repeatCount="indefinite"
         values="0 0 0;-6 0 0;6 0 0;-6 0 0;6 0 0;-6 0 0;6 0 0;-6 0 0;6 0 0;-6 0 0;6 0 0;-6 0 0;6 0 0;-6 0 0;6 0 0;-6 0 0;0 0 0;0 0 0;6 0 0;-6 0 0;6 0 0;-6 0 0;6 0 0;-6 0 0;6 0 0;-6 0 0;6 0 0;-6 0 0;6 0 0;-6 0 0;6 0 0;-6 0 0;6 0 0;0 0 0" keyTimes="0.0000;0.0227;0.0455;0.0682;0.0909;0.1136;0.1364;0.1591;0.1818;0.2045;0.2273;0.2500;0.2727;0.2955;0.3182;0.3409;0.3636;0.6364;0.6591;0.6818;0.7045;0.7273;0.7500;0.7727;0.7955;0.8182;0.8409;0.8636;0.8864;0.9091;0.9318;0.9545;0.9773;1.0000"/>
-      <path d="M-30,-42 L-44,-52 L-36,-30 Z" fill="#b5afa3"/>
-      <ellipse cx="0" cy="-38" rx="34" ry="26" fill="#cfc9bd"/>
+      <g>
+        <animate attributeName="opacity" dur="11s" repeatCount="indefinite" calcMode="discrete" values="1;0;1" keyTimes="0;0.3636;0.6364"/>
+        <g>
+          <animateTransform attributeName="transform" type="rotate" values="-16 -32 -38;16 -32 -38;-16 -32 -38" dur="0.35s" repeatCount="indefinite"/>
+          <path d="M-30,-42 L-44,-52 L-36,-30 Z" fill="#dcd8cd"/>
+        </g>
+      </g>
+      <g opacity="0">
+        <animate attributeName="opacity" dur="11s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.3636;0.6364"/>
+        <path d="M-30,-42 L-44,-52 L-36,-30 Z" fill="#dcd8cd"/>
+      </g>
+      <ellipse cx="0" cy="-38" rx="34" ry="26" fill="#f4f2ec"/>
       <g>
         <animate attributeName="opacity" dur="11s" repeatCount="indefinite" calcMode="discrete" values="1;0;1" keyTimes="0;0.39;0.61"/>
-        <circle cx="16" cy="-70" r="17" fill="#1f6b45"/>
-        <path d="M30,-73 Q42,-72 44,-68 Q42,-63 30,-64 Z" fill="#e3c13b"/>
+        <circle cx="16" cy="-70" r="17" fill="#f4f2ec"/>
+        <path d="M30,-73 Q42,-72 44,-68 Q42,-63 30,-64 Z" fill="#f5a524"/>
         <circle cx="22" cy="-74" r="2.6" fill="#111"/>
       </g>
       <g opacity="0">
         <animate attributeName="opacity" dur="11s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.39;0.61"/>
-        <circle cx="10" cy="-70" r="17" fill="#1f6b45"/>
+        <circle cx="10" cy="-70" r="17" fill="#f4f2ec"/>
         <circle cx="4" cy="-74" r="2.6" fill="#111"/>
         <circle cx="16" cy="-74" r="2.6" fill="#111"/>
-        <ellipse cx="10" cy="-66" rx="7" ry="3.5" fill="#e3c13b"/>
+        <ellipse cx="10" cy="-66" rx="7" ry="3.5" fill="#f5a524"/>
       </g>
       <g opacity="0">
         <animate attributeName="opacity" dur="11s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.42;0.59"/>
         <g>
           <animateTransform attributeName="transform" type="rotate" values="20 -14 -48;70 -14 -48;20 -14 -48" dur="0.45s" repeatCount="indefinite"/>
-          <ellipse cx="-30" cy="-48" rx="16" ry="7" fill="#b5afa3"/>
+          <ellipse cx="-30" cy="-48" rx="16" ry="7" fill="#dcd8cd"/>
         </g>
       </g>
     </g>
