@@ -35,7 +35,10 @@
     <!-- body -->
     <path d="M-26,-44 L-44,-58 L-36,-34 Z" fill="#ffd54a"/>
     <ellipse cx="0" cy="-38" rx="30" ry="22" fill="#ffd54a"/>
-    <ellipse cx="-5" cy="-37" rx="15" ry="10" fill="#f5c02f"/>
+    <ellipse cx="-5" cy="-37" rx="15" ry="10" fill="#f5c02f">
+      <animate attributeName="opacity" dur="11s" repeatCount="indefinite" calcMode="discrete"
+        values="1;0;1" keyTimes="0;0.42;0.59"/>
+    </ellipse>
 
     <!-- head, side view -->
     <g>
@@ -66,14 +69,14 @@
       </rect>
     </g>
 
-    <!-- speech bubble -->
+    <!-- wing wave -->
     <g opacity="0">
       <animate attributeName="opacity" dur="11s" repeatCount="indefinite" calcMode="discrete"
         values="0;1;0" keyTimes="0;0.42;0.59"/>
-      <rect x="34" y="-118" width="46" height="26" rx="10" fill="#ffffff" stroke="#d0d7de"/>
-      <path d="M40,-93 L36,-84 L48,-93 Z" fill="#ffffff"/>
-      <text x="57" y="-100" text-anchor="middle" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif"
-        font-size="14" font-weight="600" fill="#1f2328">hi!</text>
+      <g>
+        <ellipse cx="-28" cy="-48" rx="16" ry="6.5" fill="#f5c02f"/>
+        <animateTransform attributeName="transform" type="rotate" values="15 -12 -48;75 -12 -48;15 -12 -48" dur="0.45s" repeatCount="indefinite"/>
+      </g>
     </g>
   </g>
 </svg>
