@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./duck.svg" width="100%" alt="a duck walking by" />
+  <img src="./duck.svg?v=2" width="100%" alt="a duck walking by" />
 </p>
 
 <h3 align="center">Hi, I'm Octavio 👋</h3>
